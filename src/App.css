@@ -32,7 +32,135 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Banner */
+.banner-card {
+
+  border: none;
+  border-radius: 3px;
+  width: 98vw;
+  height: 70vh;
+  margin-top: 1vh;
+  margin-left: 0.3rem;
+  margin-bottom: 3vh;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-img {
+
+  height: 70vh;
+  width: 99vw;
+}
+
+.banner-title {
+
+  position: absolute;
+  top: 45vh;
+  left: 4vw;
+}
+
+.banner-text {
+
+  position: absolute;
+  top: 55vh;
+  left: 4vw;
+  overflow: hidden;
+}
+
+/* Movies */
+.movie-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:0.5rem;
+}
+
+.movie-card{
+
+  width:20rem;
+  color:#fff;
+  position: relative;
+  margin:1rem;
+}
+
+.movie-img{
+
+  height:40vh;
+
+}
+
+.movie-title{
+
+  position: absolute;
+  top:1rem;
+  left:1rem;
+}
+
+.movie-button{
+
+  position: absolute;
+  bottom:2rem;
+
+}
+
+/* Favourites */
+.favourites-genres{
+
+  padding:3rem;
+}
+
+.favourites-table{
+
+  padding:3rem;
+}
+
+.favourites-img{
+
+  width:6rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width:400px) {
+
+  .banner-card {
+
+    height: 50vh;
+  }
+
+  .banner-title {
+
+    position: absolute;
+    top: 20vh;
+  }
+
+  .banner-text {
+
+    top: 27vh;
+  }
+
+  .movie-card{
+
+    width:40vw;
+    margin:0.1rem;
+  }
+
+  .movie-button{
+
+    width:80%;
+  }
+
+  .movie-img{
+
+    width:40vw;
+
   }
 }
