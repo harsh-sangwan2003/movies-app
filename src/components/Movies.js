@@ -107,6 +107,8 @@ export default class Movies extends Component {
         let oldData = JSON.parse(localStorage.getItem("movies-app") || '[]');
         let temp = oldData.map(movie => movie.id);
 
+        console.log(oldData);
+
         this.setState({
 
             favourites: [...temp]
@@ -140,7 +142,7 @@ export default class Movies extends Component {
                                         <div className='button-wrapper' style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                                             {
                                                 this.state.hover === movieObj.id &&
-                                                <a href="#" className="btn btn-primary movie-button" onClick={() => { this.handleFavourites(movieObj) }}>{this.state.favourites.includes(movieObj.id) ? "Remove From Favourites" : "Add To Favourites"}</a>
+                                                <a className="btn btn-primary movie-button" onClick={() => this.handleFavourites(movieObj)}>{this.state.favourites.includes(movieObj.id) ? "Remove From Favourites" : "Add To Favourites"}</a>
                                             }
                                         </div>
 

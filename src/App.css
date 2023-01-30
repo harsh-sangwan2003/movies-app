@@ -75,57 +75,58 @@
 }
 
 /* Movies */
-.movie-container{
+.movie-container {
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 
-.movie-card{
+.movie-card {
 
-  width:20rem;
-  color:#fff;
+  width: 20rem;
+  color: #fff;
   position: relative;
-  margin:1rem;
+  margin: 1rem;
 }
 
-.movie-img{
+.movie-img {
 
-  height:40vh;
+  height: 40vh;
 
 }
 
-.movie-title{
+.movie-title {
 
   position: absolute;
-  top:1rem;
-  left:1rem;
+  top: 1rem;
+  left: 1rem;
 }
 
-.movie-button{
+.movie-button {
 
   position: absolute;
-  bottom:2rem;
+  bottom: 2rem;
 
 }
 
 /* Favourites */
-.favourites-genres{
+.favourites-genres {
 
-  padding:3rem;
+  padding: 3rem;
 }
 
-.favourites-table{
+.favourites-table {
 
-  padding:3rem;
+  padding: 3rem;
+  overflow: auto;
 }
 
-.favourites-img{
+.favourites-img {
 
-  width:6rem;
+  width: 6rem;
   margin-right: 0.5rem;
 }
 
@@ -147,20 +148,20 @@
     top: 27vh;
   }
 
-  .movie-card{
+  .movie-card {
 
-    width:40vw;
-    margin:0.1rem;
+    width: 40vw;
+    margin: 0.1rem;
   }
 
-  .movie-button{
+  .movie-button {
 
-    width:80%;
+    width: 80%;
   }
 
-  .movie-img{
+  .movie-img {
 
-    width:40vw;
+    width: 40vw;
 
   }
 }
