@@ -142,7 +142,6 @@ export class Favourites extends Component {
         }
 
         let filterArr = this.state.movies;
-        console.log(filterArr);
 
         if (this.state.currText === '')
             filterArr = this.state.movies;
