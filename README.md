@@ -69,5 +69,3 @@ to run the website
 
 
 https://github.com/harsh-sangwan2003/movies-app/assets/84121947/397ec112-47a4-4992-9e39-f112d1e9898f.mp4
-
-
