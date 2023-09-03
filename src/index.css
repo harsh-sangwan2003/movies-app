@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Banner */
+.banner-card {
+
+  width: 100vw;
+  height: 70vh;
+
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+
+  color: white;
+
+  overflow: hidden;
+}
+
+.banner-img {
+
+  width: 100vw;
+  height: 70vh;
+}
+
+.banner-title {
+
+  position: absolute;
+  top: 45vh;
+  left: 3vw;
+}
+
+.banner-text {
+
+  position: absolute;
+  top: 55vh;
+  left: 3rem;
+
+  height: 4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+
+/* Movies */
+.movies-list {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+
+}
+
+.movies-card {
+
+  width: 20vw;
+  height: 35vh;
+  color: white;
+  position: relative;
+
+}
+
+.movies-img {
+
+  height: 35vh;
+}
+
+.movies-title {
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.movies-button {
+
+  position: absolute;
+  bottom: 2rem;
+}
+
+.favourites-genres{
+
+  padding:3rem;
+}
+
+.favourites-table{
+
+  padding:3rem;
+  overflow: auto;
+}
+
+@media screen and (max-width:620px) {
+
+  .banner-card {
+
+    height: 30vh;
+  }
+
+  .banner-img {
+
+    height: 30vh;
+  }
+
+  .banner-title {
+
+    top: 12vh;
+    left: 5vw;
+  }
+
+  .banner-text {
+
+    top: 17vh;
+    left: 5vw;
+  }
+
+  .movies-card{
+
+    width:40vw;
+    margin:0.1rem;
+  }
+
+  .movies-button{
+
+    width:80%;
+  }
+
+  .movies-img{
+
+    width:40vw;
+  }
+}
